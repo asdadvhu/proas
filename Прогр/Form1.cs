@@ -35,5 +35,15 @@ namespace Прогр
         {
             MessageBox.Show("Нажал на кнпку");
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Нажал на саму длинную кнопку здесь");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Нажал на очередную кнопку");
+        }
     }
 }
