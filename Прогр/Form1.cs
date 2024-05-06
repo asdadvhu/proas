@@ -45,5 +45,10 @@ namespace Прогр
         {
             MessageBox.Show("Нажал на очередную кнопку");
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"вы ввели вот это: {textBox1.Text}");
+        }
     }
 }
